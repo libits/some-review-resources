@@ -229,8 +229,9 @@ import "";
 // 导入
 
 contract HelloWord {
+    // 状态变量  view
     string name;
-    // 状态变量  
+      
     // 函数
     function get() public  view returns (string memory){
         return name;
